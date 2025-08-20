@@ -8,6 +8,7 @@ export const categories = [
       {
         id: "car-batteries",
         name: "Car Batteries",
+        description: "Reliable 12V car batteries with high cold cranking amps for dependable starts in any weather.",
         price: "$89.99",
         image: "/car-battery.png",
         inStock: true,
@@ -16,6 +17,7 @@ export const categories = [
       {
         id: "alternators",
         name: "Alternators",
+        description: "High-output remanufactured alternators tested for reliable charging performance.",
         price: "$159.99",
         image: "/car-alternator.png",
         inStock: true,
@@ -24,6 +26,7 @@ export const categories = [
       {
         id: "starters",
         name: "Starters",
+        description: "High-torque starter motors for reliable engine starting with direct-fit installation.",
         price: "$129.99",
         image: "/placeholder-1byq7.png",
         inStock: true,
@@ -32,6 +35,7 @@ export const categories = [
       {
         id: "spark-plugs",
         name: "Spark Plugs",
+        description: "Premium iridium-tip spark plugs for improved ignition and extended engine life.",
         price: "$12.99",
         image: "/spark-plugs-set.png",
         inStock: true,
@@ -40,6 +44,7 @@ export const categories = [
       {
         id: "ignition-coils",
         name: "Ignition Coils",
+        description: "OEM-quality ignition coils for reliable spark delivery and smooth engine operation.",
         price: "$45.99",
         image: "/ignition-coil.png",
         inStock: true,
@@ -56,6 +61,7 @@ export const categories = [
       {
         id: "brake-pads",
         name: "Brake Pads",
+        description: "Premium ceramic brake pads for quiet, low-dust braking performance.",
         price: "$39.99",
         image: "/placeholder-x685r.png",
         inStock: true,
@@ -64,6 +70,7 @@ export const categories = [
       {
         id: "brake-rotors",
         name: "Brake Rotors / Discs",
+        description: "Vented and cross-drilled brake rotors for superior heat dissipation and stopping power.",
         price: "$69.99",
         image: "/brake-rotor-disc.png",
         inStock: true,
@@ -72,6 +79,7 @@ export const categories = [
       {
         id: "brake-calipers",
         name: "Brake Calipers",
+        description: "Remanufactured brake calipers tested for reliable braking with core exchange available.",
         price: "$89.99",
         image: "/brake-caliper.png",
         inStock: true,
@@ -80,6 +88,7 @@ export const categories = [
       {
         id: "shock-absorbers",
         name: "Shock Absorbers / Struts",
+        description: "Gas-charged shock absorbers and struts for improved ride comfort and handling.",
         price: "$79.99",
         image: "/shock-absorber-strut.png",
         inStock: true,
@@ -88,6 +97,7 @@ export const categories = [
       {
         id: "control-arms",
         name: "Control Arms",
+        description: "Complete control arm assemblies with ball joints and bushings for precise steering control.",
         price: "$95.99",
         image: "/control-arm-suspension.png",
         inStock: true,
@@ -104,6 +114,7 @@ export const categories = [
       {
         id: "air-filters",
         name: "Air Filters",
+        description: "High-flow washable air filters for improved engine performance and longevity.",
         price: "$19.99",
         image: "/engine-air-filter.png",
         inStock: true,
@@ -112,6 +123,7 @@ export const categories = [
       {
         id: "oil-filters",
         name: "Oil Filters",
+        description: "Premium spin-on oil filters with anti-drainback valve for superior engine protection.",
         price: "$14.99",
         image: "/oil-filter.png",
         inStock: true,
@@ -120,6 +132,7 @@ export const categories = [
       {
         id: "fuel-filters",
         name: "Fuel Filters",
+        description: "High-efficiency in-line fuel filters for clean fuel delivery and optimal engine performance.",
         price: "$24.99",
         image: "/fuel-filter.png",
         inStock: true,
@@ -128,6 +141,7 @@ export const categories = [
       {
         id: "radiators",
         name: "Radiators",
+        description: "Aluminum core radiators with direct-fit design for optimal engine cooling performance.",
         price: "$189.99",
         image: "/car-radiator.png",
         inStock: true,
@@ -136,6 +150,7 @@ export const categories = [
       {
         id: "water-pumps",
         name: "Water Pumps",
+        description: "OEM-specification water pumps with new impellers for reliable coolant circulation.",
         price: "$79.99",
         image: "/water-pump-industrial.png",
         inStock: true,
@@ -144,6 +159,7 @@ export const categories = [
       {
         id: "belts",
         name: "Belts (Timing, Serpentine)",
+        description: "EPDM rubber belts with stretch-fit design for quiet, reliable operation.",
         price: "$29.99",
         image: "/placeholder-ze5xx.png",
         inStock: true,
@@ -152,6 +168,7 @@ export const categories = [
       {
         id: "hoses",
         name: "Hoses",
+        description: "Molded-fit radiator hoses with heat-resistant construction and included clamps.",
         price: "$34.99",
         image: "/radiator-hose.png",
         inStock: true,
@@ -168,6 +185,7 @@ export const categories = [
       {
         id: "clutch-kits",
         name: "Clutch Kits",
+        description: "Complete clutch kits with pressure plate and release bearing for smooth shifting.",
         price: "$199.99",
         image: "/clutch-kit.png",
         inStock: true,
@@ -176,6 +194,7 @@ export const categories = [
       {
         id: "cv-axles",
         name: "CV Axles",
+        description: "Balanced CV axles with new joints and boots for smooth power transfer.",
         price: "$119.99",
         image: "/cv-axle.png",
         inStock: true,
@@ -184,6 +203,7 @@ export const categories = [
       {
         id: "u-joints",
         name: "U-Joints",
+        description: "Heavy-duty greasable universal joints with precision fit for reliable operation.",
         price: "$39.99",
         image: "/universal-joint.png",
         inStock: true,
@@ -192,6 +212,7 @@ export const categories = [
       {
         id: "wheel-bearings",
         name: "Wheel Bearings",
+        description: "Pre-greased wheel bearing hub assemblies with ABS sensors for smooth wheel rotation.",
         price: "$59.99",
         image: "/placeholder.svg?height=200&width=200",
         inStock: true,
@@ -208,6 +229,7 @@ export const categories = [
       {
         id: "motor-oil",
         name: "Motor Oil",
+        description: "Full synthetic 5W-30 motor oil in convenient 5-quart jugs for optimal engine protection.",
         price: "$24.99",
         image: "/placeholder.svg?height=200&width=200",
         inStock: true,
@@ -216,6 +238,7 @@ export const categories = [
       {
         id: "transmission-fluid",
         name: "Transmission Fluid",
+        description: "Multi-vehicle automatic transmission fluid for smooth shifting and transmission protection.",
         price: "$19.99",
         image: "/placeholder.svg?height=200&width=200",
         inStock: true,
@@ -224,6 +247,7 @@ export const categories = [
       {
         id: "coolant",
         name: "Coolant / Antifreeze",
+        description: "Extended-life 50/50 coolant mix for optimal engine temperature control and protection.",
         price: "$16.99",
         image: "/placeholder.svg?height=200&width=200",
         inStock: true,
@@ -232,6 +256,7 @@ export const categories = [
       {
         id: "brake-fluid",
         name: "Brake Fluid",
+        description: "DOT 3 brake fluid with high boiling point for reliable braking performance.",
         price: "$12.99",
         image: "/placeholder.svg?height=200&width=200",
         inStock: true,
@@ -240,6 +265,7 @@ export const categories = [
       {
         id: "washer-fluid",
         name: "Windshield Washer Fluid",
+        description: "All-season windshield washer fluid with bug remover for clear visibility.",
         price: "$3.99",
         image: "/placeholder.svg?height=200&width=200",
         inStock: true,
@@ -256,6 +282,7 @@ export const categories = [
       {
         id: "headlights",
         name: "Headlights",
+        description: "DOT-approved halogen headlights for direct replacement and improved visibility.",
         price: "$89.99",
         image: "/placeholder.svg?height=200&width=200",
         inStock: true,
@@ -264,6 +291,7 @@ export const categories = [
       {
         id: "tail-lights",
         name: "Tail Lights",
+        description: "LED tail lights with red lenses for enhanced visibility and easy installation.",
         price: "$69.99",
         image: "/placeholder.svg?height=200&width=200",
         inStock: true,
@@ -272,6 +300,7 @@ export const categories = [
       {
         id: "fog-lights",
         name: "Fog Lights",
+        description: "Clear lens fog lights with H11 bulbs and complete wiring for improved visibility.",
         price: "$49.99",
         image: "/placeholder.svg?height=200&width=200",
         inStock: true,
@@ -280,6 +309,7 @@ export const categories = [
       {
         id: "turn-signals",
         name: "Turn Signal Bulbs",
+        description: "Long-life amber turn signal bulbs for reliable signaling and safety.",
         price: "$8.99",
         image: "/placeholder.svg?height=200&width=200",
         inStock: true,
@@ -288,6 +318,7 @@ export const categories = [
       {
         id: "wiper-blades",
         name: "Wiper Blades",
+        description: "All-weather beam-style wiper blades for clear visibility in any conditions.",
         price: "$19.99",
         image: "/placeholder.svg?height=200&width=200",
         inStock: true,
@@ -304,6 +335,7 @@ export const categories = [
       {
         id: "floor-mats",
         name: "Floor Mats",
+        description: "Custom-fit all-weather floor mats for complete interior protection in all conditions.",
         price: "$39.99",
         image: "/placeholder.svg?height=200&width=200",
         inStock: true,
@@ -312,6 +344,7 @@ export const categories = [
       {
         id: "mirrors",
         name: "Mirrors (side & rearview)",
+        description: "Power-adjustable heated mirrors with turn signals for enhanced visibility and convenience.",
         price: "$59.99",
         image: "/placeholder.svg?height=200&width=200",
         inStock: true,
@@ -320,6 +353,7 @@ export const categories = [
       {
         id: "door-handles",
         name: "Door Handles",
+        description: "Chrome-finish exterior door handles with direct-fit design for easy replacement.",
         price: "$29.99",
         image: "/placeholder.svg?height=200&width=200",
         inStock: true,
@@ -328,6 +362,7 @@ export const categories = [
       {
         id: "hubcaps",
         name: "Hubcaps / Wheel Covers",
+        description: "16-inch chrome hubcaps for enhanced wheel appearance and protection.",
         price: "$79.99",
         image: "/placeholder.svg?height=200&width=200",
         inStock: true,

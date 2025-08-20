@@ -7,6 +7,8 @@ import { WhyChooseUs } from "@/components/why-choose-us"
 import { CTASection } from "@/components/cta-section"
 import { Testimonials } from "@/components/testimonials"
 import { Footer } from "@/components/footer"
+import { AboutHomeSection } from "@/components/about-home-section"
+import { ContactHomeSection } from "@/components/contact-home-section"
 
 export default function HomePage() {
   return (
@@ -17,8 +19,10 @@ export default function HomePage() {
       <FeaturedCategories />
       <StatsSection />
       <WhyChooseUs />
+      <AboutHomeSection />
       <CTASection />
       <Testimonials />
+      <ContactHomeSection />
       <Footer />
     </main>
   )
